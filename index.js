@@ -2,13 +2,15 @@ const express = require('express');
 const Product = require('./Models/product-model');
 const db = require("./config/db");
 
+
+
 const app = express();
 app.use(express.json());
 
+
+const cors = require('cors');
+app.use(cors());
 const port= 9353;
-
-
-
 
 app.get("/search", async (req, res) => {
     try {

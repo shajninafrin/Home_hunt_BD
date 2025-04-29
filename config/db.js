@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-const mongoURI = "mongodb+srv://user910:wixjQQg2MZZ8nMxY@backendhomehunt.xnyk7he.mongodb.net/?retryWrites=true&w=majority&appName=backendhomehunt";
+const mongoURI = "mongodb+srv://user120:lwpN3yZVKUrMAYK7@backendhomehunt.xnyk7he.mongodb.net/?retryWrites=true&w=majority&appName=backendhomehunt";
 mongoose.connect(mongoURI)
     .then(() => {
         console.log("Connected to MongoDB");
